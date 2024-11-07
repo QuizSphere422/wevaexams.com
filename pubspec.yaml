@@ -1,0 +1,32 @@
+name: alaa
+description: "مشروع Flutter جديد."
+publish_to: 'none' # احذف هذا السطر إذا كنت ترغب في نشر الحزمة إلى pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  get: ^4.6.6
+  flutter_gemini: ^2.0.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Satisfy
+  #     fonts:
+  #       - asset: assets/fonts/Satisfy-Regular.ttf
